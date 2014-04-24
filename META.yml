@@ -1,0 +1,37 @@
+---
+abstract: 'library of evid service'
+author:
+  - '홍형석 - Hyungsuk Hong <hyungsuk.hong@silex.kr>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.015, CPAN::Meta::Converter version 2.132830'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Evid
+requires:
+  Carp: '0'
+  DBIx::Class::Core: '0'
+  DBIx::Class::Schema: '0'
+  Data::Section::Simple: '0'
+  DateTime: '0'
+  DateTime::Format::ISO8601: '0'
+  Digest::SHA1: '0'
+  JSON: '0'
+  Mojo::DOM: '0'
+  Mojo::Template: '0'
+  Moo: '0'
+  Moo::Role: '0'
+  Net::Silex: v0.7.2
+  Path::Tiny: '0'
+  Tree::Simple: '0'
+  Try::Tiny: '0'
+  Type::Library: '0'
+  Type::Tiny: '0'
+  Type::Utils: '0'
+  YAML::Syck: '0'
+  experimental: '0'
+version: v0.0.1
